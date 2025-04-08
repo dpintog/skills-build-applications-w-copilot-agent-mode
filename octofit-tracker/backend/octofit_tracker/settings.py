@@ -131,3 +131,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_METHODS = ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
 CORS_ALLOW_HEADERS = ["*",]
+
+# Codespace-specific Django REST API endpoint
+CODESPACE_URL = "http://symmetrical-engine-7575rqj7qjw2gq6-8000.app.github.dev/"
